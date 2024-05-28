@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserProvider", "UserProvider\UserProvider.csproj", "{53D9464D-849F-4955-B8C2-5BFF30C1A7C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserProvider", "UserProvider\UserProvider.csproj", "{53D9464D-849F-4955-B8C2-5BFF30C1A7C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4D18BC4E-6204-4EF3-A435-784AE91B1C8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{4D18BC4E-6204-4EF3-A435-784AE91B1C8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
