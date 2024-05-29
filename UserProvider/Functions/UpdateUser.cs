@@ -39,7 +39,11 @@ namespace UserProvider.Functions
 
                 if (updatedUser.Address != null)
                 {
-                    existingUser.Address!.AddressLine_1 = updatedUser.Address.AddressLine_1;
+                    if (existingUser.Address == null)
+                    {
+                        existingUser.Address = new AddressEntity();
+                    }
+                    existingUser.Address.AddressLine_1 = updatedUser.Address.AddressLine_1;
                     existingUser.Address.AddressLine_2 = updatedUser.Address.AddressLine_2;
                     existingUser.Address.PostalCode = updatedUser.Address.PostalCode;
                     existingUser.Address.City = updatedUser.Address.City;
